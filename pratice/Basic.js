@@ -4,6 +4,17 @@
 //This is useful when you need to debug and follow your type of data and what being pass
 console.log('Hello World')
 
+//type of
+//this is usefull if you want to know what kind of data you're getting
+let num1 = 'this is a string' // string
+let num2 = 20 // Integer
+let num3 = true //boolean
+let num4 = ['a,b,c,d']// object of array
+
+console.log(typeof num1)
+console.log(typeof num2)
+console.log(typeof num3)
+console.log(typeof num4)
 
 //Method
 //.toUpperCase

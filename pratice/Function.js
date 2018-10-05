@@ -23,3 +23,4 @@ for (let index = 0; index < arrayItem.length; index++) {
 }
 
 //If statement
+// if statement is to check what we are comparing to is true or false
