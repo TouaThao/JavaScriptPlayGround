@@ -38,3 +38,12 @@ for (let index = 0; index < arrayItem.length; index++) {
 
 //If statement
 // if statement is to check what we are comparing to is true or false
+// in here we check if this year is the year 2018
+let year = 2018
+if( year !== 2018){
+    return console.log("false")
+} else if ( year === 2018) {
+    return console.log("true")
+}else{
+    return console.log("Pick a different year")
+}
