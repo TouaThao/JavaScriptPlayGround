@@ -1,4 +1,4 @@
-//Basic adding and declaring or giving a vaule to an variable 
+;//Basic adding and declaring or giving a vaule to an variable 
 //variable is just a fancy way of saying Hey hold this value,data type
 //after we assign them a value we add them up and check the value with console.log
 
@@ -17,12 +17,12 @@ incrementTotal ++
 let decreaseTotal = 6;
 decreaseTotal --
 
-console.log(total)
-console.log(subtotal)
-console.log(mutiTotal)
-console.log(divTotal)
-console.log(modTotal)
-console.log(incrementTotal)
-console.log(decreaseTotal)
+console.log(total);
+console.log(subtotal);
+console.log(mutiTotal);
+console.log(divTotal);
+console.log(modTotal);
+console.log(incrementTotal);
+console.log(decreaseTotal);
 
 

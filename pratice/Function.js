@@ -10,7 +10,7 @@ function total (a,b) {
 }
 //After the factory is built we need to invoke it
 //a way to see the result is console.log
-console.log('see what we get back',sum)
+console.log('see what we get back',sum);
 
 //More example
 //Now let build our factory to do the logic 
@@ -19,7 +19,7 @@ function totalSum (sum2,sum3){
 }
 //now let check the result
 let result = totalSum(2,4)
-console.log('checking result', result)
+console.log('checking result', result);
 // so step by step
 // we created a factory that take in sum2 and sum3. sum2/sum3 could be anything
 // inside the factory we give it the logic to run. ie we did a simple subtraction
