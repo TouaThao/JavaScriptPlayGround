@@ -47,3 +47,7 @@ if( year !== 2018){
 }else{
     return console.log("Pick a different year")
 }
+
+//Now we could also do add the If function and for loop function and combine them togather
+//This will in turn create a function that loop through the data and if any data match what we 
+// are looking for it will return that

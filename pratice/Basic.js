@@ -4,6 +4,9 @@
 //This is useful when you need to debug and follow your type of data and what being pass
 console.log('Hello World')
 
+//There is also so many different type of console out there
+
+
 //type of
 //this is usefull if you want to know what kind of data you're getting
 let num1 = 'this is a string' // string
