@@ -14,18 +14,26 @@ console.log(Bobby);
 //Good pratice
 //This will us on the browser to see what each object hold
 console.log({Bob,Harry,Bobby});
+
 //Here we adding color to console.log so it will be easier to see on the browser
 console.log('%c My Friend', 'color:orange;')
 console.log({Bob,Harry,Bobby})
+
 //Here we're going use table
 console.table([Bob,Harry,Bobby])
+
 //Next we could benchMark time as well
 console.time('loop')
 let i = 0;
 while (i< 50000) {i++}
 console.timeEnd('loop')
 
-//There is also so many different type of console out there
+//here we could trace if any code is being use twice
+//We could see what line and when it was run
+const runMe = ()=> console.trace('running the code');
+runMe()
+runMe()
+//There is also so many different type of console out there so go out and research
 
 
 
