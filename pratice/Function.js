@@ -50,4 +50,11 @@ if( year !== 2018){
 
 //Now we could also do add the If function and for loop function and combine them togather
 //This will in turn create a function that loop through the data and if any data match what we 
-// are looking for it will return that
+// are looking for matches then it will return the result
+//This is conditional checking
+// we do for loop first then do a if/else or case
+let i = [ 0,2,5,1,7,12]
+for (let i = 0; i < array.length; i++) {
+   console.log('what number do we get', i)
+    return i
+}
