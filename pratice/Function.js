@@ -39,7 +39,7 @@ for (let index = 0; index < arrayItem.length; index++) {
 //If statement
 // if statement is to check what we are comparing to is true or false
 // in here we check if this year is the year 2018
-let year = 2018
+let year = 2028
 if( year !== 2018){
     return console.log("false")
 } else if ( year === 2018) {
@@ -53,8 +53,28 @@ if( year !== 2018){
 // are looking for matches then it will return the result
 //This is conditional checking
 // we do for loop first then do a if/else or case
-let i = [ 0,2,5,1,7,12]
+
+let array = [ 1,2,3,4,5,6]
+
+function arrayTesting( array){
 for (let i = 0; i < array.length; i++) {
-   console.log('what number do we get', i)
-    return i
+  
+    if (array === 3) {
+        return console.log('we got 0')
+    }
 }
+}
+arrayTesting()
+
+// let array = [1,3,4,5,6,7]
+// for (let i = 0; i < array.length; i++) {
+//     if( array === 1){
+//         return console.log('We got 1')
+//     } else if( array === 7){
+//         return console.log('we got 7')
+//     } else{
+//         return console.log('Need a new number')
+//     }
+// }
+
+
