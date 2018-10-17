@@ -10,3 +10,4 @@ function greet (person) {
     }
   }
   greet({ name: 'amy' })
+console.log(greet)
