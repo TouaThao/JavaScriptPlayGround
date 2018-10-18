@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js",
+    "start": "node pratice/server/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TouaThao/JavaScriptPlayGround/issues"
   },
-  "homepage": "https://github.com/TouaThao/JavaScriptPlayGround#readme"
+  "homepage": "https://github.com/TouaThao/JavaScriptPlayGround#readme",
+  "dependencies": {
+    "node": "^10.12.0"
+  }
 }
