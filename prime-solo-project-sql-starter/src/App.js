@@ -51,6 +51,10 @@ class App extends Component {
             path="/info"
             component={InfoPage}
           />
+                    <ProtectedRoute
+            path="/landingPage"
+            component={LandingPage}
+          />
           {/* OTHERWISE (no path!) */}
           <Route render={() => <h1>404</h1>} />
 
