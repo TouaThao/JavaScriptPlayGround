@@ -1,6 +1,8 @@
 import React from 'react';
 
+class landingPage extends{
+    
+}
 
 
-
-export default Home;
+export default landingPage;
