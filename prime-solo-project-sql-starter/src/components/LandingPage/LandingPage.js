@@ -5,7 +5,7 @@ class LandingPage extends Component {
       return (
         <div>
        <h1>hello</h1>
-       <h1>hello</h1>
+       <h1>This is an annyoing website</h1>
         </div>
       );
     }
