@@ -11,3 +11,5 @@ function greet (person) {
   }
   greet({ name: 'amy' })
 console.log(greet)
+
+//we need solve this
