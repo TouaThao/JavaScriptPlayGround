@@ -66,15 +66,5 @@ for (let i = 0; i < array.length; i++) {
 }
 arrayTesting()
 
-// let array = [1,3,4,5,6,7]
-// for (let i = 0; i < array.length; i++) {
-//     if( array === 1){
-//         return console.log('We got 1')
-//     } else if( array === 7){
-//         return console.log('we got 7')
-//     } else{
-//         return console.log('Need a new number')
-//     }
-// }
-//
+
 
