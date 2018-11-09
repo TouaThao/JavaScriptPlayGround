@@ -57,7 +57,7 @@ if( year !== 2018){
 
 let array = [ 1,2,3,4,5,6]
 
-function arrayTesting( array){
+function arrayTesting(array){
 for (let i = 0; i < array.length; i++) {
   
     if (array === 3) {
@@ -67,5 +67,8 @@ for (let i = 0; i < array.length; i++) {
 }
 arrayTesting()
 
-
-
+let mystuff = ['Shoe','Car','House','keys']
+let ourstuff = ['New car','red shoe','blue shoe','keys']
+for( let mystuffIndex = 0; mystuffIndex < mystuff.length; mystuffIndex ++){
+console.log(mystuff[mystuffIndex])
+}
