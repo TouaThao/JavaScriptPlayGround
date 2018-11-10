@@ -39,14 +39,14 @@ for (let index = 0; index < arrayItem.length; index++) {
 //If statement
 // if statement is to check what we are comparing to is true or false
 // in here we check if this year is the year 2018
-let year = 2028
-if( year !== 2018){
-    return console.log("false")
-} else if ( year === 2018) {
-    return console.log("true")
-}else{
-    return console.log("Pick a different year")
-}
+// let year = 2028
+// if( year !== 2018){
+//     return console.log("false")
+// } else if ( year === 2018) {
+//     return console.log("true")
+// }else{
+//     return console.log("Pick a different year")
+// }
 
 //Now we could also do add the If function and for loop function and combine them togather
 //This will in turn create a function that loop through the data and if any data match what we 
@@ -56,9 +56,8 @@ if( year !== 2018){
 
 
 let array = [ 1,2,3,4,5,6]
-
 function arrayTesting(array){
-for (let i = 0; i < array.length; i++) {
+for (let i = 0; i < array; i++) {
   
     if (array === 3) {
         return console.log('we got 0')
@@ -72,3 +71,13 @@ let ourstuff = ['New car','red shoe','blue shoe','keys']
 for( let mystuffIndex = 0; mystuffIndex < mystuff.length; mystuffIndex ++){
 console.log(mystuff[mystuffIndex])
 }
+
+//while loop pratice
+let deck = ['Heart', 'Club', 'Diamond', 'Spade'];
+let newCard = 'diamond'
+while(newCard !== 'club '){
+console.log(newCard)
+newCard = deck[Math.floor(Math.random() * 4)];
+}
+console.log('You found the club card!');
+//will need to add break on it or it will be infinit loop
