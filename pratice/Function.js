@@ -47,6 +47,8 @@ for (let index = 0; index < arrayItem.length; index++) {
 // }else{
 //     return console.log("Pick a different year")
 // }
+//Now we will need to commit this out
+// the return will make the other code unreachable
 
 //Now we could also do add the If function and for loop function and combine them togather
 //This will in turn create a function that loop through the data and if any data match what we 
