@@ -80,6 +80,7 @@ let newCard = 'diamond'
 while(newCard !== 'club '){
 console.log(newCard)
 newCard = deck[Math.floor(Math.random() * 4)];
+break;
 }
 console.log('You found the club card!');
 //will need to add break on it or it will be infinit loop
