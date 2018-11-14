@@ -80,6 +80,13 @@ let newCard = 'diamond'
 while(newCard !== 'club '){
 console.log(newCard)
 newCard = deck[Math.floor(Math.random() * 4)];
+break;
 }
 console.log('You found the club card!');
 //will need to add break on it or it will be infinit loop
+
+
+//Lets do a filter
+let range = [ 20 , 40 ,60 ,80 ];
+let newRange = range.filter(num => num > 60);
+console.log(newRange);
