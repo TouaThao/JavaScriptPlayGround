@@ -90,3 +90,15 @@ console.log('You found the club card!');
 let range = [ 20 , 40 ,60 ,80 ];
 let newRange = range.filter(num => num > 60);
 console.log(newRange);
+
+//Creating object
+//An object we use the curly brace and inside there we use the colon and comma : ,
+//An example
+//After we created an obeject we could start to add more keys
+//But before we move to the next key we need to end our previous key with a comma ,
+let hero = {
+    name:'Toua',
+    power:'lucky',
+    age:'Unknow'
+};
+console.log(hero);
