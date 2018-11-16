@@ -99,6 +99,8 @@ console.log(newRange);
 let hero = {
     name:'Toua',
     power:'lucky',
-    age:'Unknow'
+    age:'Unknown'
 };
 console.log(hero);
+
+//we could also do a setter on it 
