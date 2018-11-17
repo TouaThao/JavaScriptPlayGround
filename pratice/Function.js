@@ -99,7 +99,10 @@ console.log(newRange);
 let hero = {
     name:'Toua',
     power:'lucky',
-    age:'Unknown'
+    age:'Unknown',
+    get name(){
+        
+    }
 };
 console.log(hero);
 
