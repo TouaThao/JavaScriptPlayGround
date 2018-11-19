@@ -101,7 +101,7 @@ let hero = {
     power:'lucky',
     age:'Unknown',
     get name(){
-        
+       this._name = name;
     }
 };
 console.log(hero);
