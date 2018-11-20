@@ -100,6 +100,7 @@ let hero = {
     name:'Toua',
     power:'lucky',
     age:'Unknown',
+    Origin:'From Earth',
     get name(){
        this._name = name;
     }
