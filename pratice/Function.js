@@ -108,3 +108,4 @@ let hero = {
 console.log(hero);
 // We added a getter into the object
 //we could also do a setter on it 
+//Call method
