@@ -115,3 +115,4 @@ constructor(name,power){
 super(name);
 }
 }
+//We have create a subclass of hero
